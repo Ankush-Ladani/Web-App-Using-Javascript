@@ -13,7 +13,19 @@ let button = document.querySelector(".btn");
 // Checking Button Is Selected Or Not?
 // console.log(button);
 
+// Selecting Textarea
+let textInput = document.querySelector("textarea");
+
+// Checking That It's Selecting Right Element Or Not?
+// console.log(textInput);
+
+
+
 // Added EventListener to Button
 button.addEventListener('click', () => {
-    console.log("Clicked");
+    let output = "";
+    output += textInput.value;
+    console.log(output);
 });
+
+
